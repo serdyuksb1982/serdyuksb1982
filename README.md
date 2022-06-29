@@ -23,8 +23,16 @@ I'm Junior Software Engineer. My commercial development experience is just under
 *   Java language
 *   MySQL, PostgreSQL, MongoDB, Flyway
 *   Spring Framework, Spring Boot, Spring Test, Spring Data Jpa, Spring Jdbc template, Spring Cloud Contract and so on...
-*   Maven Apache, Intellij Idea
+*   Maven Apache, Intellij Idea, Atlassian Jira
 *   GitHub
+
+## 🛠 Educational literature
+*   «Java 8. Руководство для начинающих», Герберт Шилдт;
+*   «Алгоритмы на Java», Роберт Сэджвик | Кэвин Уэйн;
+*   «Java concurrency in practice», Гетц Брайан;
+*   «Тайный код информатики», Чарльз Петцольд;
+*   «Грокаем алгоритмы», Бхаргава Адитья.
+
 
 <div align="center" style="margin: 40px 0">
    <a href="https://github.com/serdyuksb1982&/github-profile-views-counter">
