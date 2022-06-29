@@ -12,11 +12,11 @@ I'm Junior Software Engineer. My commercial development experience is just under
 
 
 <p align='center'>
-   📫 How to reach me: <a href='mailto:serdyuksb@gmail.com'>serdyuksb@gmail.com</a>     
+   📫 My HH: <a href="https://mytischi.hh.ru/resume/3ad4d79dff0976e8260039ed1f4f756e6d6265">serdyuksb</a>     
 </p>
 
 <p align='center'>
-   📫 My HH: <a href='mailto:https://mytischi.hh.ru/resume/3ad4d79dff0976e8260039ed1f4f756e6d6265</a>     
+   📫 How to reach me: <a href='mailto:serdyuksb@gmail.com'>serdyuksb@gmail.com</a>     
 </p>
 
 <p align='center'>    
