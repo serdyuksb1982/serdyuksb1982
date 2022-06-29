@@ -20,3 +20,16 @@ I'm Junior Software Engineer. My commercial development experience is just under
        <img width="175px" src="https://serdyuksb.com/ghpvc/?username=romankh3&color=DE002D">
    </a>
 </div>
+
+## 🛠 Technical Stack
+*   Java language
+*   MySQL, PostgreSQL, MongoDB, Flyway
+*   Spring Framework, Spring Boot, Spring Test, Spring Data Jpa, Spring Jdbc template, Spring Cloud Contract and so on...
+*   Maven Apache, Intellij Idea
+*   GitHub
+
+<div align="center" style="margin: 40px 0">
+   <a href="https://github.com/serdyuksb1982/serdyuksb1982/edit/serdyuksb1982/a/github-profile-views-counter">
+       <img width="175px" src="https://serdyuksb.com/ghpvc/?username=serdyuksb1982&color=DE002D">
+   </a>
+</div>
