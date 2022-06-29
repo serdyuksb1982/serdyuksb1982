@@ -13,6 +13,7 @@ I'm Junior Software Engineer. My commercial development experience is just under
 
 <p align='center'>
    📫 How to reach me: <a href='mailto:serdyuksb@gmail.com'>serdyuksb@gmail.com</a>
+      My tel: 8-926-760-27-01
 </p>
 
 
