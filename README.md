@@ -44,3 +44,9 @@ I'm Junior Software Engineer. My commercial development experience is just under
        <img width="175px" src="https://komarev.com/ghpvc/?username=serdyuksb1982&&color=DE002D">
    </a>
 </div>
+
+## 🛠 Spring learning -> https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans
+1.1. Знакомство с контейнером и Bean Spring IoC:
+  * основа для контейнера IoC Spring: org.spingframework.beans and org.springframework.context. Interface BeanFactory, WebApplicationContext for Web.
+  *  ![container-magic](https://user-images.githubusercontent.com/92222969/216593994-1559644f-7fb1-4130-aa6b-058c9d69b6d6.png)
+
