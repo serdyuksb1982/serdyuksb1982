@@ -72,22 +72,14 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", 
   содержат ряд метаданных.
 
 1.3.2. Создание экземпляров компонентов:
-  * с помощью конструктора  
-         public class ClientService {
-         private static ClientService clientService = new ClientService();
-         private ClientService() {}
-         public static ClientService createInstance() {
-               return clientService;
-      }
-   }
-   
-  * с помощью метода фабрики экземпляров:
-         public class DefaultServiceLocator {
+  * public class ClientService {
+    private static ClientService clientService = new ClientService();
+    private ClientService() {}
 
-         private static ClientService clientService = new ClientServiceImpl();
+    public static ClientService createInstance() {
+        return clientService;
+    }
+}
 
-         public ClientService createClientServiceInstance() {
-            return clientService;
-         }
-      }
+
    
