@@ -48,9 +48,11 @@ I'm Junior Software Engineer. My commercial development experience is just under
 ## 🛠 Spring learning -> https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans
 1.1. Знакомство с контейнером и Bean Spring IoC:
   * основа для контейнера IoC Spring: org.spingframework.beans and org.springframework.context. Interface BeanFactory, WebApplicationContext for Web.
-  *  ![container-magic](https://user-images.githubusercontent.com/92222969/216593994-1559644f-7fb1-4130-aa6b-058c9d69b6d6.png)
+  *  ![container-magic](https://user-images.githubusercontent.com/92222969/216593994-1559644f-7fb1-4130-aa6b-058c9d69b6d6.png).
+  
 1.2.1. Метаданные конфигурации:
   * исп. XML; на основе аннотаций; конфигурация на основе Java (@Configuration, @Bean, @Import, и @Depends).
+  
 1.2.2. Создание экземпляра класса:
   * ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
   * возможно составление метаданных конфигурации на основе XML.
