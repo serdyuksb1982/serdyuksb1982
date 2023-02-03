@@ -81,4 +81,13 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", 
             return clientService;
          }
       }
+  * с помощью метода фабрики экземпляров:
+         public class DefaultServiceLocator {
+
+         private static ClientService clientService = new ClientServiceImpl();
+
+         public ClientService createClientServiceInstance() {
+            return clientService;
+         }
+      }
    
