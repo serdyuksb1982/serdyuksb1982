@@ -76,11 +76,11 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", 
          public class ClientService {
          private static ClientService clientService = new ClientService();
          private ClientService() {}
-
          public static ClientService createInstance() {
-            return clientService;
+               return clientService;
+            }
          }
-      }
+   
   * с помощью метода фабрики экземпляров:
          public class DefaultServiceLocator {
 
