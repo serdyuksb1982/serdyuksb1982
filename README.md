@@ -58,9 +58,12 @@ I'm Junior Software Engineer. My commercial development experience is just under
   * // create and configure beans
 ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
 
-// retrieve configured instance
-PetStoreService service = context.getBean("petStore", PetStoreService.class);
+   // retrieve configured instance
+   PetStoreService service = context.getBean("petStore", PetStoreService.class);
 
-// use configured instance
-List<String> userList = service.getUsernameList();
+   // use configured instance
+   List<String> userList = service.getUsernameList().
+1.3. Обзор компонентов.
+  * Контейнер Spring IoC управляет одним или несколькими компонентамию Внутри контейнера определения компонентов представлены в виде BeanDefinition объектов, которые с 
+  содержат ряд метаданных.
 
