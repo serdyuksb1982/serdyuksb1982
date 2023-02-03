@@ -49,4 +49,18 @@ I'm Junior Software Engineer. My commercial development experience is just under
 1.1. Знакомство с контейнером и Bean Spring IoC:
   * основа для контейнера IoC Spring: org.spingframework.beans and org.springframework.context. Interface BeanFactory, WebApplicationContext for Web.
   *  ![container-magic](https://user-images.githubusercontent.com/92222969/216593994-1559644f-7fb1-4130-aa6b-058c9d69b6d6.png)
+1.2.1. Метаданные конфигурации:
+  * исп. XML; на основе аннотаций; конфигурация на основе Java (@Configuration, @Bean, @Import, и @Depends).
+1.2.2. Создание экземпляра класса:
+  * ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+  * возможно составление метаданных конфигурации на основе XML.
+1.2.3. Использование контейнера:
+  * // create and configure beans
+ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+
+// retrieve configured instance
+PetStoreService service = context.getBean("petStore", PetStoreService.class);
+
+// use configured instance
+List<String> userList = service.getUsernameList();
 
