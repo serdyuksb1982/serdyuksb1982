@@ -71,3 +71,14 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", 
   * Контейнер Spring IoC управляет одним или несколькими компонентамию Внутри контейнера определения компонентов представлены в виде BeanDefinition объектов, которые с 
   содержат ряд метаданных.
 
+1.3.2. Создание экземпляров компонентов:
+  * с помощью конструктора  
+         public class ClientService {
+         private static ClientService clientService = new ClientService();
+         private ClientService() {}
+
+         public static ClientService createInstance() {
+            return clientService;
+         }
+      }
+   
