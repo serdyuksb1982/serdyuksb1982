@@ -54,6 +54,7 @@ I'm Junior Software Engineer. My commercial development experience is just under
 1.2.2. Создание экземпляра класса:
   * ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
   * возможно составление метаданных конфигурации на основе XML.
+  
 1.2.3. Использование контейнера:
   * // create and configure beans
 ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
@@ -63,6 +64,7 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", 
 
    // use configured instance
    List<String> userList = service.getUsernameList().
+   
 1.3. Обзор компонентов.
   * Контейнер Spring IoC управляет одним или несколькими компонентамию Внутри контейнера определения компонентов представлены в виде BeanDefinition объектов, которые с 
   содержат ряд метаданных.
