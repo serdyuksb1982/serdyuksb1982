@@ -36,7 +36,8 @@ I'm Junior Software Engineer. My commercial development experience is just under
 *   «Алгоритмы на Java», Роберт Сэджвик | Кэвин Уэйн;
 *   «Java concurrency in practice», Гетц Брайан;
 *   «Тайный код информатики», Чарльз Петцольд;
-*   «Грокаем алгоритмы», Бхаргава Адитья.
+*   «Грокаем алгоритмы», Бхаргава Адитья;
+*   «Математический анализ», В.А. Зорич.
 
 
 <div align="center" style="margin: 40px 0">
@@ -44,60 +45,3 @@ I'm Junior Software Engineer. My commercial development experience is just under
        <img width="175px" src="https://komarev.com/ghpvc/?username=serdyuksb1982&&color=DE002D">
    </a>
 </div>
-
-## 🛠 Spring learning -> https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans
-1.1. Знакомство с контейнером и Bean Spring IoC:
-  * основа для контейнера IoC Spring: org.spingframework.beans and org.springframework.context. Interface BeanFactory, WebApplicationContext for Web.
-  *  ![container-magic](https://user-images.githubusercontent.com/92222969/216593994-1559644f-7fb1-4130-aa6b-058c9d69b6d6.png).
-  
-1.2.1. Метаданные конфигурации:
-  * исп. XML; на основе аннотаций; конфигурация на основе Java (@Configuration, @Bean, @Import, и @Depends).
-  
-1.2.2. Создание экземпляра класса:
-  * ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
-  * возможно составление метаданных конфигурации на основе XML.
-  
-1.2.3. Использование контейнера:
-  * // create and configure beans
-ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
-
-   // retrieve configured instance
-   PetStoreService service = context.getBean("petStore", PetStoreService.class);
-
-   // use configured instance
-   List<String> userList = service.getUsernameList().
-   
-1.3. Обзор компонентов.
-  * Контейнер Spring IoC управляет одним или несколькими компонентамию Внутри контейнера определения компонентов представлены в виде BeanDefinition объектов, которые с 
-  содержат ряд метаданных.
-
-1.3.2. Создание экземпляров компонентов:
-   
-  public class ClientService {
-    private static ClientService clientService = new ClientService();
-    private ClientService() {}
-
-    public static ClientService createInstance() {
-        return clientService;
-    }
-}
-
-
-   public class DefaultServiceLocator {
-
-    private static ClientService clientService = new ClientServiceImpl();
-
-    private static AccountService accountService = new AccountServiceImpl();
-
-    public ClientService createClientServiceInstance() {
-        return clientService;
-    }
-
-    public AccountService createAccountServiceInstance() {
-        return accountService;
-    }
-}
-
-
-
-   
